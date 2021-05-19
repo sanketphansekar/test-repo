@@ -1,6 +1,3 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
+language: node_js
 script:
  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then echo "pull_request"; fi'
