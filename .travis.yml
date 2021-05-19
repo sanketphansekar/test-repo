@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+script:
+ - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then echo "pull_request"; fi'
